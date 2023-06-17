@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Time Sheet</title>
+    <h1>Time Sheet</h1>  
+   </head>
+ 
+ <body style="background-color: beige; text-align: center; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; position: relative;">
+    <form  action="/timesheet" method="POST">
+        
+    <label for="start" 
+    value="" >Date:</label><br>
+
+<input type="date" id="start" text-align="center" name="start" 
+       value=""
+       min="2023-01-01" max="2026-12-31"><br>
+
+    <br>
+    <label for="in">IN:</label><br>
+
+<input type="time" id="in" name="in"
+       ><br><br>
+
+       <label for="out">Out:</label><br>
+
+<input type="time" id="out" name="out"
+      ><br>
+
+       <br><label for="submit" value="submit"></label><br>
+       <button style="font-weight:bold; padding: 15px 32px;
+       text-align: center; position: relative;font-size: 16px;" type="submit" name="submit">Submit</button>
+       </h1>
+    </form>
+   </body>
+</html>

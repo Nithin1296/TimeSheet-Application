@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+.formStyling{
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
